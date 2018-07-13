@@ -4,6 +4,7 @@
   "description": "",
   "main": "node.js",
   "scripts": {
+    "start": "node node.js --configuration=dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/vex-coin/vex-node/issues"
   },
-  "homepage": "https://github.com/vex-coin/vex-node#readme"
+  "homepage": "https://github.com/vex-coin/vex-node#readme",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "socket.io": "^2.1.1"
+  }
 }

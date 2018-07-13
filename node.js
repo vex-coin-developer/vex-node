@@ -1,1 +1,2 @@
-console.log("Hello vex-node");
+let config = require('./configurations/configuration').getConfiguration();
+console.log('config', config);
