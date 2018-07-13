@@ -11,7 +11,7 @@
     "url": "git+https://github.com/vex-coin/vex-node.git"
   },
   "author": "Avihai Cohen",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vex-coin/vex-node/issues"
   },
