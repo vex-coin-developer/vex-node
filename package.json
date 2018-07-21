@@ -19,6 +19,8 @@
   "homepage": "https://github.com/vex-coin/vex-node#readme",
   "dependencies": {
     "koa": "^2.5.2",
+    "mysql2": "^1.5.3",
+    "sequelize": "^4.38.0",
     "socket.io": "^2.1.1"
   }
 }
