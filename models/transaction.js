@@ -4,6 +4,7 @@ module.exports = function (sequelize, DataTypes) {
 			type: DataTypes.INTEGER,
 			primaryKey: true
 		},
+		bundle_id: DataTypes.INTEGER,
 		amount: DataTypes.BIGINT,
 		code  : DataTypes.INTEGER,
 		tag   : DataTypes.STRING,
