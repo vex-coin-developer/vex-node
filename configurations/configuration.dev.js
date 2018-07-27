@@ -1,6 +1,7 @@
 const configuration = {
 	get: () => {
 		return {
+			configuration: 'dev',
 			databaseName: 'vex-node-dev',
 			databaseUser: 'root',
 			databasePassword: '',

@@ -1,6 +1,18 @@
 const icon = {
 	print: () => {
-		console.log("                                                                      \n" +
+		let logColor;
+		switch (config.configuration) {
+			case 'dev':
+				logColor = '\x1b[31m';
+				break;
+			case 'test':
+				logColor = '\x1b[33m';
+				break;
+			case 'prod':
+				logColor = '\x1b[32m';
+				break;
+		}
+		console.log(logColor, "                                                                      \n" +
 			"                                                                      \n" +
 			"                             ./+ossso+:.                              \n" +
 			"                         .+hNMMMMMMMMMMMNh/`                          \n" +
