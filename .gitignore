@@ -1,2 +1,5 @@
 .idea
 node_modules
+configurations/configuration.dev.js
+configurations/configuration.test.js
+configurations/configuration.prod.js
