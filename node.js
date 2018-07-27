@@ -8,7 +8,7 @@ async function setSequelize() {
 	global.models = Models;
 	Models.connectToDB();
 	Models.load();
-	if (config.resetDatabase) {
+	if (global.config.resetDatabase) {
 		await Models.resetDB();
 	} else {
 		Models.updateModels();
