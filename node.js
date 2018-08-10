@@ -1,6 +1,7 @@
 let config = require('./configurations/configuration'),
 	Models = require('./models/models'),
-	icon = require('./icon');
+	icon = require('./icon'),
+	VexLib = require('vex-coin-lib-js');
 function printIcon() {
 }
 
@@ -19,5 +20,6 @@ async function init() {
 	global.config = config.getConfiguration();
 	await setSequelize();
 	icon.print();
+	global.vexLib = VexLib;
 }
 init();

@@ -1,6 +1,6 @@
 {
   "name": "vex-node",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "node.js",
   "scripts": {
@@ -22,6 +22,6 @@
     "mysql2": "^1.5.3",
     "sequelize": "^4.38.0",
     "socket.io": "^2.1.1",
-    "vex-coin-lib-js": "0.0.4"
+    "vex-coin-lib-js": "0.0.6"
   }
 }
