@@ -5,7 +5,7 @@ const configuration = {
 			databaseName: 'vex-node-dev',
 			databaseUser: 'root',
 			databasePassword: '',
-			databasePort: 8888,
+			serverPort: 4780,
 			resetDatabase: true,
 			socketPort: 5123,
 		}
