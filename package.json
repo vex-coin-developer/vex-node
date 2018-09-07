@@ -1,6 +1,6 @@
 {
   "name": "vex-node",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "node.js",
   "scripts": {
